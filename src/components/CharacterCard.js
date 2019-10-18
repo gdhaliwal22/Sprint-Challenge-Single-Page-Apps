@@ -2,6 +2,31 @@ import React from "react";
 import styled from "styled-components";
 
 
+const Card = styled.div`
+  font-size:18px;
+  border:1px solid black;
+  text-align:center;
+  border-radius:10px;
+  padding:5px;
+  margin: 15px;
+  color:whitesmoke;
+  background:#97ce4c;
+  padding:2%;
+  width:40%;
+`;
+
+const CardInfo = styled.div`
+  font-size:16px;
+  border:1px dashed gold;
+  margin: 0 auto;
+  border-radius:10px;
+  padding:5px;
+  margin: 15px 0px;
+  color:whitesmoke;
+  background:#e89ac7;
+  width:40%;
+  display:inline-block;
+`;
 
 export default function CharacterCard(props) {
   return (
