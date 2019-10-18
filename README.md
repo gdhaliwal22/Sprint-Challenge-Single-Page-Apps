@@ -27,6 +27,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
+Data is loaded to the browser during initial render, so that the page won’t refresh. Because less data is processed, routing between views is generally faster. Smooth transitions and animations between views are easier to implement.
+
 > Answer:
 
 ## Project Set Up
